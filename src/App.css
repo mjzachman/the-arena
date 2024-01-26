@@ -1,15 +1,32 @@
 #root {
-  max-width: 1280px;
+  width: 100vw;
   margin: 0 auto;
-  padding: 2rem;
   text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
 }
 
-
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
-  }
+.nav-bar{
+  background-color: black;
+  color: white;
+  width: 100vw;
+  height: 180px;
 }
 
+.card{
+  background-color: lightcyan;
+  padding: 10px;
+  margin: 10px;
+  border: solid black 1px;
+  width: 80vw;
+}
+
+.footer{
+  background-color: black;
+  color: white;
+  width: 100vw;
+  height: 90px;
+}
 
